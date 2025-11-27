@@ -17,7 +17,7 @@ public class GarageTests
 
 
     [Test]
-    public void IsFull_ShouldReturnFalse_WhenGarageIsEmpty()
+    public void IsFull_ShouldReturnFalse_GivenGarageIsEmpty()
     {
         // Arrange
         int capacity = 10;
@@ -31,26 +31,25 @@ public class GarageTests
     }
 
     [Test]
-    public void IsFull_ShouldReturnTrue_WhenGarageIsFull()
+    public void IsFull_ShouldReturnTrue_GivenGarageIsFull()
     {
         // Arrange
         const int capacity = 2;
         var garage = new Garage(capacity);
         Vehicle vehicle1 = new Vehicle();
         Vehicle vehicle2 = new Vehicle();
-
-        // Act
         garage.Enter(vehicle1);
         garage.Enter(vehicle2);
+
+        // Act
         var result = garage.IsFull();
 
         // Assert
         Assert.That(result, Is.True);
     }
 
-
     [Test]
-    public void Garage_CannotHaveNegativeCapacity_WhenCreated()
+    public void Garage_GivenNegativeCapacity_CannotBeCreated()
     {
         // Arrange
         const int negativeCapacity = -2;
@@ -59,18 +58,20 @@ public class GarageTests
         var ex = Assert.Throws<ArgumentException>(() => new Garage(negativeCapacity));
     }
 
-    [TestCase(3)]
-    [TestCase(7)]
-    [TestCase(8000)]
-    public void Garage_ShouldHaveCapacity_WhenConstructed(int constructionCapacity)
+    [TestCase(2,0)]
+    [TestCase(4,2)]
+    [TestCase(10,8)]
+    public void RemainingCapacity_Given2VehiclesEntered_ShouldReturn2Less(int constructionCapacity,int remainingCapacity)
     {
         // Arrange
         var garage = new Garage(constructionCapacity);
+        garage.Enter(vehicle1);
+        garage.Enter(vehicle2);
 
         // Act
-        var result = garage.capacity;
+        var result = garage.RemaingCapacity();
 
         // Assert
-        Assert.That(result, Is.EqualTo(constructionCapacity));
+        Assert.That(result, Is.EqualTo(remainingCapacity));
     }
 }

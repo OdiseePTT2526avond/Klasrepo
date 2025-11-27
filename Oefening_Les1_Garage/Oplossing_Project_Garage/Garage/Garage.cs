@@ -1,8 +1,8 @@
 ﻿namespace Garage;
 public class Garage
 {
-    public int capacity;
-    public int occupancy;
+    private int capacity;
+    private int occupancy=0;
 
     public Garage(int capacity) { }
 
@@ -17,6 +17,11 @@ public class Garage
     }
 
     public void Enter(Vehicle v) { }
+
+    public int RemaingCapacity()
+    {
+        return -1;
+    }
 }
 
 
