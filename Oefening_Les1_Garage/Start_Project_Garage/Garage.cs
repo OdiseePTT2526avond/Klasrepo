@@ -2,9 +2,9 @@
 public class Garage
 {
     // Capacitiy (= Capaciteit): Het maximum aantal voertuigen dat in de Garage kan
-    public int capacity;
+    private int capacity;
     // Occupancy: Het huidig aantal voertuigen in de Garage
-    public int occupancy;
+    private int occupancy=0;
 
     public Garage(int capacity)
     {
@@ -27,6 +27,11 @@ public class Garage
     {
         // TO DO
     }
+    public int RemaingCapacity()
+    {
+        return -1;
+    }
+
 }
 
 
