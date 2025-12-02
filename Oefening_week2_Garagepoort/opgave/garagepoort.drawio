@@ -1,0 +1,123 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram id="CtYkU1n-S1NcHdqPQNHZ" name="Page-2">
+    <mxGraphModel dx="2277" dy="974" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7UUVkTps-AIwSd0HRjM5-13" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Een bestuurder laten binnenrijden&lt;/b&gt;&lt;/span&gt;" style="swimlane;html=1;startSize=20;fontStyle=0;collapsible=0;horizontal=0;swimlaneLine=1;swimlaneFillColor=#ffffff;strokeWidth=2;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-530" y="450" width="1190" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="7UUVkTps-AIwSd0HRjM5-16" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;start&lt;/font&gt;" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;" parent="7UUVkTps-AIwSd0HRjM5-13" vertex="1">
+          <mxGeometry x="40" y="140" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7UUVkTps-AIwSd0HRjM5-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="7UUVkTps-AIwSd0HRjM5-13" source="7UUVkTps-AIwSd0HRjM5-16" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="165" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7UUVkTps-AIwSd0HRjM5-18" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;ACT 010:&lt;/b&gt;&amp;nbsp;Bestuurder wordt gevraagd of hij naar binnen wil&lt;/font&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" parent="7UUVkTps-AIwSd0HRjM5-13" vertex="1">
+          <mxGeometry x="110" y="125" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7UUVkTps-AIwSd0HRjM5-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="7UUVkTps-AIwSd0HRjM5-13" source="7UUVkTps-AIwSd0HRjM5-22" target="7UUVkTps-AIwSd0HRjM5-27" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7UUVkTps-AIwSd0HRjM5-28" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;neen&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="7UUVkTps-AIwSd0HRjM5-19" connectable="0" vertex="1">
+          <mxGeometry x="-0.2716" relative="1" as="geometry">
+            <mxPoint y="11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7UUVkTps-AIwSd0HRjM5-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="7UUVkTps-AIwSd0HRjM5-13" source="7UUVkTps-AIwSd0HRjM5-22" target="7UUVkTps-AIwSd0HRjM5-24" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7UUVkTps-AIwSd0HRjM5-32" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;ja&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="7UUVkTps-AIwSd0HRjM5-21" connectable="0" vertex="1">
+          <mxGeometry x="-0.6055" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7UUVkTps-AIwSd0HRjM5-22" value="" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;" parent="7UUVkTps-AIwSd0HRjM5-13" vertex="1">
+          <mxGeometry x="390" y="139.9958620689656" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7UUVkTps-AIwSd0HRjM5-24" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;ACT 040:&lt;/b&gt;&amp;nbsp;Er wordt gekeken of er plaats is voor de bestuurder&lt;/font&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" parent="7UUVkTps-AIwSd0HRjM5-13" vertex="1">
+          <mxGeometry x="470" y="180" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7UUVkTps-AIwSd0HRjM5-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="7UUVkTps-AIwSd0HRjM5-13" source="7UUVkTps-AIwSd0HRjM5-25" target="7UUVkTps-AIwSd0HRjM5-40" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7UUVkTps-AIwSd0HRjM5-42" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;neen&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="7UUVkTps-AIwSd0HRjM5-39" connectable="0" vertex="1">
+          <mxGeometry x="-0.327" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7UUVkTps-AIwSd0HRjM5-25" value="" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;" parent="7UUVkTps-AIwSd0HRjM5-13" vertex="1">
+          <mxGeometry x="610" y="195" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7UUVkTps-AIwSd0HRjM5-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="7UUVkTps-AIwSd0HRjM5-13" source="7UUVkTps-AIwSd0HRjM5-24" target="7UUVkTps-AIwSd0HRjM5-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7UUVkTps-AIwSd0HRjM5-27" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;ACT 030:&lt;/b&gt; Bestuurder rijdt verder naar de exit&lt;/font&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" parent="7UUVkTps-AIwSd0HRjM5-13" vertex="1">
+          <mxGeometry x="460" y="60" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7UUVkTps-AIwSd0HRjM5-33" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;ACT 060:&lt;/b&gt;&amp;nbsp;Garagepoort gaat open&lt;/font&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" parent="7UUVkTps-AIwSd0HRjM5-13" vertex="1">
+          <mxGeometry x="680" y="230" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7UUVkTps-AIwSd0HRjM5-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="7UUVkTps-AIwSd0HRjM5-13" source="7UUVkTps-AIwSd0HRjM5-25" target="7UUVkTps-AIwSd0HRjM5-33" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7UUVkTps-AIwSd0HRjM5-35" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;ja&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="7UUVkTps-AIwSd0HRjM5-34" connectable="0" vertex="1">
+          <mxGeometry x="-0.1933" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7UUVkTps-AIwSd0HRjM5-37" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;end&lt;/font&gt;" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;" parent="7UUVkTps-AIwSd0HRjM5-13" vertex="1">
+          <mxGeometry x="1130" y="140" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7UUVkTps-AIwSd0HRjM5-40" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;ACT 050:&lt;/b&gt; Bestuurder merkt op dat er geen plaats is, en gaat naar de exit&lt;/font&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" parent="7UUVkTps-AIwSd0HRjM5-13" vertex="1">
+          <mxGeometry x="680" y="125" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7UUVkTps-AIwSd0HRjM5-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="7UUVkTps-AIwSd0HRjM5-13" source="7UUVkTps-AIwSd0HRjM5-40" target="7UUVkTps-AIwSd0HRjM5-37" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7UUVkTps-AIwSd0HRjM5-44" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;ACT 020:&lt;/b&gt; Bestuurder antwoord met ja of neen&lt;/font&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" parent="7UUVkTps-AIwSd0HRjM5-13" vertex="1">
+          <mxGeometry x="250" y="125" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7UUVkTps-AIwSd0HRjM5-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="7UUVkTps-AIwSd0HRjM5-13" source="7UUVkTps-AIwSd0HRjM5-18" target="7UUVkTps-AIwSd0HRjM5-44" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7UUVkTps-AIwSd0HRjM5-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="7UUVkTps-AIwSd0HRjM5-13" source="7UUVkTps-AIwSd0HRjM5-44" target="7UUVkTps-AIwSd0HRjM5-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7UUVkTps-AIwSd0HRjM5-48" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;ACT 070: &lt;/b&gt;Bestuurder rijdt binnen&amp;nbsp;&lt;/span&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" parent="7UUVkTps-AIwSd0HRjM5-13" vertex="1">
+          <mxGeometry x="840" y="230" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7UUVkTps-AIwSd0HRjM5-49" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;ACT 080:&lt;/b&gt; Garagepoort gaat dicht&lt;/font&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" parent="7UUVkTps-AIwSd0HRjM5-13" vertex="1">
+          <mxGeometry x="990" y="230" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7UUVkTps-AIwSd0HRjM5-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="7UUVkTps-AIwSd0HRjM5-13" source="7UUVkTps-AIwSd0HRjM5-33" target="7UUVkTps-AIwSd0HRjM5-48" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7UUVkTps-AIwSd0HRjM5-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="7UUVkTps-AIwSd0HRjM5-13" source="7UUVkTps-AIwSd0HRjM5-48" target="7UUVkTps-AIwSd0HRjM5-49" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7UUVkTps-AIwSd0HRjM5-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.145;entryY=0.855;entryDx=0;entryDy=0;entryPerimeter=0;" parent="7UUVkTps-AIwSd0HRjM5-13" source="7UUVkTps-AIwSd0HRjM5-49" target="7UUVkTps-AIwSd0HRjM5-37" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7UUVkTps-AIwSd0HRjM5-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.145;entryY=0.145;entryDx=0;entryDy=0;entryPerimeter=0;" parent="7UUVkTps-AIwSd0HRjM5-13" source="7UUVkTps-AIwSd0HRjM5-27" target="7UUVkTps-AIwSd0HRjM5-37" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1137" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7UUVkTps-AIwSd0HRjM5-54" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Requirements:&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;REQ001: Het aantal auto&#39;s in de garage is bekend&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: medium; font-weight: 700;&quot;&gt;REQ002: Het systeem kan bepalen of er nog plaats is in de garage&lt;/span&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;REQ003: Via een UI kan het systeem vragen of de bestuurder naar binnen wil&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;REQ004: Via een UI kan de bestuurder met &quot;ja&quot; of &quot;neen&quot;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;REQ005: Via een UI kan het systeem zeggen dat de auto verder mag rijden tot de exit&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;REQ006: Via een UI kan het systeem zeggen dat de garage vol is en de bestuurder aanraden om later terug te komen&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;REQ007: Het systeem kan de garagepoort openen&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;REQ008: Het systeem kan de garagepoort sluiten&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;REQ009: Het systeem kan nadat de garagepoort is geopend, even wachten zodat de bestuurder kan binnenrijden&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-530" y="820" width="680" height="200" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
