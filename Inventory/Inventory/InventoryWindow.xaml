@@ -1,0 +1,30 @@
+﻿<Window x:Class="Inventory.InventoryWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Inventory"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="600">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+
+        <ListBox x:Name="stockListBox" Margin="5" SelectionChanged="StockListBox_SelectionChanged" MouseDoubleClick="StockListBox_MouseDoubleClick"/>
+        <ListBox x:Name="orderListBox" Grid.Column="1" Margin="5"/>
+
+        <Label Content="Te betalen:" Grid.Row="1"/>
+        <Label x:Name="totalAmountLabel" Grid.Column="1" Grid.Row="1"/>
+        <Button x:Name="processOrderButton" Content="Verwerk bestelling" Grid.Row="2" Click="ProcessOrderButton_Click" Margin="5"/>
+        <Label Content="Aantal bestellingen:" Grid.Row="3"/>
+        <Label x:Name="orderCountLabel" Grid.Column="1" Grid.Row="3"/>
+    </Grid>
+</Window>
