@@ -1,0 +1,4 @@
+week5 b1  -> met use case testen
+B2 + DB + klantenDAO
+B3 is de versie van in de slides met klanten- en klantenkaartDAO's.
+B4 is de mysql versie
