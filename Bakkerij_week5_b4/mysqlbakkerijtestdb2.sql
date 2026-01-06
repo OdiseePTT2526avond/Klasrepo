@@ -1,7 +1,10 @@
-CREATE USER IF NOT EXISTS 'bakkerij_app_user'@'localhost' IDENTIFIED BY 'AppUser_Strong!Passw0rd';
 DROP DATABASE IF EXISTS BakkerijTestDb;
 CREATE DATABASE IF NOT EXISTS BakkerijTestDb;
 USE BakkerijTestDb;
+
+CREATE USER IF NOT EXISTS 'bakkerij_app_user'@'localhost' IDENTIFIED BY 'AppUser_Strong!Passw0rd';
+
+GRANT delete,insert,select,update ON BakkerijTestDb.* to 'bakkerij_app_user'@'localhost';
 
 -- phpMyAdmin SQL Dump
 -- version 5.2.1
