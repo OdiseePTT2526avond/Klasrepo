@@ -7,6 +7,7 @@ namespace HogerLager
     /// </summary>
     public class HogerLager
     {
+        // te raden nummer unsigned int tussen 0 en 15
         private readonly uint number;
 
         /// <summary>
